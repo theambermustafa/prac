@@ -8,3 +8,5 @@ const person = {
 };
 
 console.log(person.fullName());
+
+// Adding a comment to get a hold of it!

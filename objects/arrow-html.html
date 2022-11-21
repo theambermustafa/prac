@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>I will explain how arrow functions work</h2>
+    <p id="demox"></p>
+    <script>
+        // Normal function - ES5
+        let x = function (a, b) {
+            return a + b;
+        }
+        document.getElementById("demox").innerHTML = x(5, 2.5);
+
+        // Arrow
+        let y = (a, b) => a + b;
+        document.getElementById("demox").innerHTML = y(200, 12);
+        // The content gets overridden
+    </script>
+
+</body>
+
+</html>
